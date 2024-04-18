@@ -1,0 +1,71 @@
+.image-human {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  top: 15%;
+}
+.image-human span {
+  display: flex;
+  overflow: hidden;
+  width: 30vw;
+  height: 100%;
+  margin: 10px;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+.image-human span:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.image-human span img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  top: 13%;
+  background-color: #dcdde1;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  font-family: "Russo One", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+svg text {
+  animation: stroke forwards;
+  animation-duration: 4s;
+  stroke-width: 2;
+  stroke: #365FA0;
+  font-size: 13vw;
+}
+
+@keyframes stroke {
+  0% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgb(54, 95, 160);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgb(54, 95, 160);
+  }
+  80% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgb(54, 95, 160);
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgb(72, 138, 204);
+    stroke: rgba(54, 95, 160, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}/*# sourceMappingURL=index.css.map */

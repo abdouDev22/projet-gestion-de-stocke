@@ -1,0 +1,157 @@
+{
+  "workspaces": {
+    "Stage": {
+      "main": {
+        "id": "21a74c9c622d9072",
+        "type": "split",
+        "children": [
+          {
+            "id": "20b41aef03c7cf81",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ca4b63c185c5c10b",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2023-07-16 17.56.49.excalidraw.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "3655a12c3845208f",
+        "type": "split",
+        "children": [
+          {
+            "id": "6f914c913095c97d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b86b0f4a663d206e",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "bd11f242ae2ef166",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "254d3d24f819e346",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "02b7bad682f271d1",
+        "type": "split",
+        "children": [
+          {
+            "id": "915050b2128b9ff5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d3648da236ff767a",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2023-07-16 17.56.49.excalidraw.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "68f331c32e1992b9",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2023-07-16 17.56.49.excalidraw.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "266bb9f815d377f2",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "bd87c55bc028a1ce",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2023-07-16 17.56.49.excalidraw.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "markdown-importer:Ouvrir l'importateur Markdown": false,
+          "workspaces:Gérer les espaces de travail": false,
+          "switcher:Ouvrir le sélecteur rapide": false,
+          "graph:Ouvrir la vue graphique": false,
+          "canvas:Créer une nouvelle toile": false,
+          "daily-notes:Ouvrir la note quotidienne": false,
+          "templates:Insérer le modèle": false,
+          "command-palette:Ouvrir la palette de commandes": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false
+        }
+      },
+      "active": "ca4b63c185c5c10b"
+    }
+  },
+  "active": "Stage"
+}

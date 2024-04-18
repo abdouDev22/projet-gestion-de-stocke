@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .contr {
+    position: absolute;
+    top: 2%;
+    width: 1000px;
+    height: 1370px;
+  }
+  .contr .dd {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    height: 150px;
+    width: 100%;
+    font-size: 1.5em;
+  }
+  .contr .dd .Date {
+    position: relative;
+    margin-right: 3%;
+  }
+  .contr .dd .Date1 {
+    position: relative;
+    margin-right: 6%;
+    border: #000 solid 2px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  .contr .dd .Inv {
+    position: relative;
+    margin-right: 6%;
+    border: #000 solid 2px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  .contr .dd .No {
+    position: relative;
+    margin-right: 3%;
+  }
+  .contr .dd .No1 {
+    position: relative;
+    border: #000 solid 2px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  .contr .dd .Mr {
+    position: relative;
+    top: 40%;
+    right: 45%;
+    margin-right: 7%;
+  }
+  .contr .dd .Mr1 {
+    position: relative;
+    top: 25%;
+    left: 200px;
+    border: #000 solid 2px;
+    padding: 10px;
+    border-radius: 6px;
+    display: block;
+    width: 400px;
+  }
+  .contr .contf {
+    position: absolute;
+    left: 100px;
+    right: 0;
+    top: 2%;
+    border: 4px solid #000;
+    border-radius: 4px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    width: 800px;
+    height: 100px;
+  }
+  .contr .contf h1 {
+    grid-row: 1;
+    text-align: center;
+  }
+  .contr .contf .tel {
+    grid-row: 2;
+    text-align: center;
+  }
+  .contr .contf .loc {
+    grid-row: 3;
+    text-align: center;
+  }
+  .contr .prod {
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    width: 80%;
+    height: 70%;
+    padding: 10px;
+  }
+  .contr .prod .content-table {
+    border-collapse: collapse;
+    font-size: 1.8em;
+    min-width: 100%;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+  .contr .prod .content-table thead tr {
+    padding: 30px;
+    background-color: #009879;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .contr .prod .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  .contr .prod .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  .contr .prod .content-table tbody tr td {
+    max-width: 100px;
+  }
+  .contr .prod .content-table tbody tr td input {
+    position: relative;
+    text-align: center;
+    font-size: 0.6em;
+    max-width: 300px;
+    outline: none;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+  }
+  .contr .prod .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+  .contr .Total {
+    display: block;
+    position: absolute;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    top: 79.5%;
+    left: 48%;
+  }
+  .contr .Total1 {
+    display: block;
+    text-align: center;
+    position: absolute;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    width: 200px;
+    top: 80%;
+    left: 68%;
+    border: #000 solid 2px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  .contr .prixL {
+    display: block;
+    position: absolute;
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    top: 88%;
+    left: 10%;
+  }
+  .contr .sig {
+    display: block;
+    position: absolute;
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    top: 88%;
+    left: 60%;
+  }
+  
+  .print {
+    position: fixed;
+    left: 90%;
+    z-index: 20;
+  }
+  .print svg {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .print svg:hover {
+    animation: print 0.7s forwards;
+    animation-delay: 0.1s;
+  }
+  
+  @keyframes print {
+    0% {
+      transform: rotate(-50deg);
+    }
+    20% {
+      transform: scale(1.2) rotate(50deg);
+    }
+    40% {
+      transform: scale(1.2) rotate(-50deg);
+    }
+    60% {
+      transform: scale(1.2) rotate(50deg);
+    }
+    80% {
+      transform: rotate(-50deg);
+    }
+  }/*# sourceMappingURL=print.css.map */
