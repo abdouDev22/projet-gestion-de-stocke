@@ -135,7 +135,7 @@ if ($result_clients->num_rows > 0) {
                 <div class="item-content">
                     <span class="no">Nom client</span>
                     <span class="no1">' . $row["nom_client"] . '</span>
-                    <span class="type">Quantité totale empruntée ' . $row["quantite_totale"] . '</span>
+                    <span class="type">Quantité totale  ' . $row["quantite_totale"] . '</span>
                     <span class="type1">No commande ' . $row["id_commande"] . '</span>
                     <span class="sta">Type : ' . $row["Statut_transaction"] . '</span>
                     <span class="fff"><input type="number"></span>
